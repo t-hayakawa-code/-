@@ -1,0 +1,437 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.header {
+  height: 40px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 40px;
+}
+
+.header-nav ul{
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 12px;
+
+}
+
+.header-nav a {
+  color: #f2f2f2;
+    text-decoration: none;
+
+}
+
+
+#eyecatch {
+  height: 800px;
+  background: url(../img/eyecatch.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#eyecatch h1{
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.eyecatch-news {
+  background-color: white;
+  padding: 0px 400px 15px 0;
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  font-size: 10px;
+  text-align: left;
+}
+.eyecatch-contents {
+  background-color: #000;
+  padding: 18px 50px;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 10px;
+}
+
+.mission {
+  height: 450px;
+  background-color: #000;
+  position: relative;
+}
+
+.mission-title {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+
+.mission-text {
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  font-size: 11px;
+}
+
+.mission-img {
+  text-align: right;
+  padding: 130px ;
+}
+
+.mission-box a{
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.service  {
+  margin-top: 180px;
+  height: 1350px;
+  background-color: rgb(241, 241, 241);
+  position: relative;
+}
+
+.service h2 {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.service-img {
+  text-align: right;
+}
+
+
+.service-contents-cam {
+  position: absolute;
+  top: 160px;
+  left: 320px;
+  background-color: #fff;
+  padding: 90px 80px 110px 80px;
+  font-size: 10px;
+}
+
+.service-title1 {
+  font-weight: bold;
+  padding-bottom: 17px;
+}
+
+.service-link1 a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 9px;
+  padding: 8px 25px;
+  border: 1px solid #000000;
+  position: absolute;
+  top: 355px;
+  left: 660px;
+}
+
+.service-img2 {
+  text-align: left;
+  margin-top: 200px;
+}
+
+.service-contents-smork {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  bottom: 250px;
+  right: 320px;
+  background-color: #fff;
+  padding: 90px 80px 110px 80px;
+  font-size: 10px;
+}
+
+.service-title2 {
+  font-weight: bold;
+  padding-bottom: 17px;
+}
+
+.service-link2 a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 9px;
+  padding: 8px 25px;
+  border: 1px solid #000000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  bottom: 310px;
+  right: 405px;
+}
+.campany-contents {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bold;
+}
+
+.campany-campany {
+  text-decoration: none;
+  margin: 150px 50px 0px 0;
+  background: url(../img/company.jpeg);
+  background-size: cover;
+  width: 700px;
+  height: 200px;
+  color: #fff;
+}
+
+.campany-title {
+  font-size: 30px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.campany-recruit {
+  text-decoration: none;
+  margin: 150px 0 0px 50px;
+  background: url(../img/recruit.jpg);
+  background-size: cover;
+  width: 700px;
+  height: 200px;
+  color: #fff;
+}
+
+.recruit-title {
+  font-size: 30px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.FAQ {
+  display: flex;
+  background-color: #000;
+  margin: 150px 160px; 
+  padding: 40px 30px;
+  color: #fff;
+}
+
+.FAQ-logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.FAQ-text {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 480px;
+  font-size: 15px;
+}
+
+.contact {
+  height: 600px;
+  background: url(../img/contact-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+}
+
+.contact-title h2{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.contact-title p{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+.contact-word {
+  font-size: 30px;
+  text-align: center;
+  margin: 30px;
+}
+
+.contact-text {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-submit {
+  text-decoration: none;
+  font-size: 12px;
+  border: 1px #fff solid;
+  color: #fff;
+  padding: 8px 30px;
+  position: absolute;
+  top: 60%;
+  left: 46%;
+}
+
+.end-contents {
+  height: 40px;
+  background: #000;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 40px;
+}
+
+.footer-nav ul{
+  display: flex;
+}
+
+.footer-nav li {
+  margin-right: 35px;
+  font-size: 12px;
+
+}
+
+.footer-nav a {
+  color: #f2f2f2;
+    text-decoration: none;
+
+}
+
+#footer {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  font-size: 10px;
+}
