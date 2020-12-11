@@ -1,99 +1,110 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+   <meta charset="UTF-8">
+   <meta 
+     name="viewport" content="width=device-width, initial-scale=1.0,
+     maximum-scale=1.0, minimum-scale=1.0">
   <title>演習問題</title>
   <link rel="stylesheet" href="../演習問題/stylesheet.css">
   <body>
 </head>
-<header class="header">
-  <div class="header-wrap">
-    <h1 class="header-logo">estra inc.</h1>
-    <nav class="header-nav">
-      <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">service</a></li>
-        <li><a href="#">works</a></li>
-        <li><a href="#">price</a></li>
-        <li><a href="#">contact</a></li>
-      </ul>
-    </nav>
+ <div id="firstview">
+  <div id="top-header">
+    <div class="flex">
+      <h1 class="header-logo">estra inc.</h1>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">works</a></li>
+          <li><a href="#">price</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+   </div>
+  <div id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
 </header>
-<main>
-  <div id="eyecatch">
-    <h1>機械ではできない仕事を</h1>
-    <p class="eyecatch-news"></p>
-    <p class="eyecatch-news">2019/01/01<br><br>　ニュースタイトルがここには入ります。３月の決算報告</p>
-    <p class="eyecatch-contents">news</p>
+<p class="catchcopy">機械ではできない仕事を</p>
+  <div class="news flex">
+    <div class="news-content">
+      <p class="news_date">2019/01/01</p>
+      <p class="news_title">
+        ニュースタイトルがここには入ります。3月の決算報告書
+      </p>
+    </div>
+    <div class="news-icon">news</div>
+   </div>
   </div>
+  <main>
   <div class="mission">
+    <div class="mission-content">
     <h2 class="mission-title">お客様のために進化する成長企業であり続ける</h2>
     <p class="mission-text">顧客主導型サービスを提供する企業として、お客様の会社経営に必要なサービスと情報を提供し続ける起業支援会社を目指します。<br><br>企業が現在直面していいる「勝ち残るため」の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提<br><br>供いたします。
     </p>
-    <div class="mission-box">
-    <a href="#">ミッション詳細</a>
-     </div>
+    <a href="#" class="common-btn mission-btn">ミッション詳細</a>
+    </div>
     <div class="mission-img">
-      <img src="../img/mission-img.jpg" alt="" width="45%" height="35%">
+      <img src="../img/mission-img.jpg" alt="" />
     </div>
   </div>
   <div class="service">
     <h2>service</h2>
+    <div class="service-content">
+      <div class="service-img">
+        <img src="../img/service2.jpg" alt="">
+      </div>
     <div class="service-contents-cam">
-      <p class="service-title1">web制作事業</p>
-      <p class="service-text1">コーチングのミッション<br><br><br>ユーザーが求めるものを分析し、ユーザビリティを備えた最適なサイトを提供。<br><br>建設業から美容、
-      ブライダル、飲食店まで多種多様な業種の制作実績があります。</p>
-    </div>
-    <div class="service-link1">
-      <a href="#">サービス詳細</a>
-    </div>
-    <div  class="service-img">
-      <img src="../img/service2.jpg" alt="" width="50%" height="40%">
-    </div>
-    <div class="service-contents-smork">
-      <p class="service-title2">web制作事業</p>
-      <p class="service-text2">コーチングのミッション<br><br><br>ユーザーが求めるものを分析し、ユーザビリティを備えた最適なサイトを提供。<br><br>建設業から美容、
-        ブライダル、飲食店まで多種多様な業種の制作実績があります。</p>
-    </div>
-    <div class="service-link2">
-      <a href="#">サービス詳細</a>
+      <p class="service-title mgb-15">web制作事業</p>
+      <p class="mgb-15">コーチングのミッション<br><br>ユーザーが求めるものを分析し、ユーザビリティを備えた最適なサイトを提供。建設業から美容、ブライダル、飲食店まで多種多様な業種の制作実績があります。</p>
+      <a href="#" class="common-btn service-link1">サービス詳細</a>
     </div>
     <div class="service-img2">
-      <img src="../img/service1.jpg" alt="" width="50%" height="40%">
+      <img src="../img/service1.jpg" alt="">
     </div>
-  </div>
+    <div class="service-contents-smork">
+      <p class="service-title mgb-15">web制作事業</p>
+      <p class="mgb-15">コーチングのミッション<br><br>ユーザーが求めるものを分析し、ユーザビリティを備えた最適なサイトを提供。建設業から美容、ブライダル、飲食店まで多種多様な業種の制作実績があります。</p>
+      <a href="#" class="common-btn service-link2">サービス詳細</a>
+      </div>
+    </div>
+   </div>
+
   <div class="campany-contents">
-    <a href="#" class="campany-campany">
-    <p class="campany-title">company</p>
-    <p class="campany">会社概要</p>
-    </a>
-    <a href="#" class="campany-recruit">
-      <p class="recruit-title">recruit</p>
-      <p class="recruit">採用情報</p>
-    </a>
+    <h2  class="campany-campany flex">
+    <p class="campany-title section-title">company<br /><span>会社概要</span></p>
+    </h2>
+    <h2 class="campany-recruit">
+      <div class="campany-title section-title">recruit<br><span>
+     採用情報</span></p>
+      </h2>
+   </div>
   </div>
   <div class="FAQ">
     <p class="FAQ-logo">FAQ</p>
     <a href="#" class="FAQ-text">良くある質問</a>
   </div>
   <div class="contact">
-    <div class="contact-title">
-      <h2>contact</h2>
-      <p>お問い合わせ</p>
+    <div class="contact-title section-title">
+      <h2>contact<br /><span>お問い合わせ</span>
+      </h2>
       </div>
-      <div class="contact-word">
-      <p >お気軽にお問合せ下さい。</p>
-      </div>
-      <div class="contact-text">
-      <p >資料請求・お問合せなどなんでも気軽にお問合せ下さい。お仕事のご連絡もお問合せページに飛んでいただいて、入力フォームにご記入お願いいたします。</p>
-      </div>
-    <a href="#" class="contact-submit">お問い合せへ</a>
+      <p class="contact-word section-title">
+      お気軽にお問合せ下さい。</p>
+      <p class="contact-text">
+      資料請求・お問合せなどなんでも気軽にお問合せ下さい。お仕事のご連絡もお問合せページに飛んでいただいて、入力フォームにご記入お願いいたします。
+      </p>
+    <a href="#" class="common-btn contact-submit">お問い合せへ</a>
   </div>
+ <footer class="footer">
 <div class="end-contents">
-  <div class="footer-wrap">
+  <div class="footer-wrap flex">
     <h1 class="footer-logo">estra inc.</h1>
     <nav class="footer-nav">
       <ul>
@@ -104,10 +115,11 @@
         <li><a href="#">price</a></li>
         <li><a href="#">contact</a></li>
       </ul>
-    </nav>
-    </main>
-    <footer id="footer">
+      </nav>
+      </div>
+      </div>
       <small>Copyright 2019 estra inc. All Rights Reserved</small>
-</footer>
-</body>
+    </footer>
+   </main>
+  </body>
 </html>
